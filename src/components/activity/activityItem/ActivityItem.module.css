@@ -1,0 +1,42 @@
+.activityItem {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.item__container {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color2);
+  margin-bottom: 1rem;
+  width: 99%;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.active__container {
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.left img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.left p {
+  margin-left: 0.7rem;
+  color: var(--color4);
+}
+
+.arrow {
+  margin-right: 1rem;
+  transform: rotate(270deg);
+  height: 1.2rem;
+  width: 1.2rem;
+}

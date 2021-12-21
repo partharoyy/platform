@@ -1,0 +1,127 @@
+.progress {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.progress__left__side {
+  background-color: var(--color6);
+  width: 30%;
+  height: 35rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  color: var(--color2);
+  border-radius: 10px;
+  padding-bottom: 5rem;
+  padding-top: 1.3rem;
+}
+
+.progress__left__side h1 {
+  font-size: 2.5rem;
+}
+
+.loader__logo {
+  height: 300px;
+  width: 300px;
+}
+
+.lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(202, 202, 202, 0.2);
+  height: 150px;
+  width: 450px;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.orange {
+  background-color: orange;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.yellow {
+  background-color: yellow;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.time {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.progress__right__side {
+  width: 65%;
+  margin-left: 2rem;
+  padding: 2rem;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.line {
+  border-bottom: 1px solid rgb(218, 218, 218);
+  width: 60rem;
+  height: 3px;
+}
+
+.count__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+}
+
+.oval {
+  margin-top: 4.3rem;
+  width: 100%;
+}
+
+.bottomBanner {
+  position: relative;
+}
+
+.progress__right__side h2 {
+  position: absolute;
+  top: 55%;
+  left: 10rem;
+  color: var(--color2);
+  font-size: 1.5rem;
+}
+
+.email {
+  font-weight: normal;
+}
+
+.emoji {
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+
+.progressBar {
+  margin-top: 1rem;
+  transform: scale(1.3);
+}
+
+.svg {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

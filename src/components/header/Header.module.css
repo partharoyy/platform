@@ -1,0 +1,93 @@
+.header {
+  display: flex;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color2);
+}
+
+.header__search {
+  position: relative;
+}
+
+.header__search input {
+  border: none;
+  width: 22rem;
+  height: 3rem;
+  background-color: var(--color1);
+  outline: none;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+
+.header__search input::placeholder {
+  font-size: 1rem;
+  color: gray;
+}
+
+.header__search__icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: gray;
+  height: 1.1rem;
+  width: 1.1rem;
+}
+
+.header__right__side {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.btns li {
+  margin-right: 1.5rem;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.profile li {
+  margin-left: 1rem;
+}
+
+.bell {
+  height: 1.7rem;
+  width: 1.4rem;
+}
+
+.message {
+  height: 1.7rem;
+  width: 1.6rem;
+}
+
+.btns h3 {
+  font-weight: lighter;
+}
+
+.down {
+  height: 0.9rem;
+  width: 0.9rem;
+}
+
+.header__add__button {
+  border: none;
+  padding: 1.2rem 1.3rem;
+  background-color: var(--color3);
+  color: var(--color2);
+  border-radius: 1.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-right: 2rem;
+}

@@ -1,0 +1,33 @@
+.activity {
+  margin-top: 2rem;
+}
+
+.activity__top {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.activity__title__line {
+  border-bottom: 1px solid rgb(218, 218, 218);
+  width: 105rem;
+  height: 3px;
+}
+
+.activity__btn {
+  background-color: rgb(224, 223, 223);
+  padding: 0.5rem 1.2rem;
+  border-radius: 5px;
+}
+
+.follower {
+  color: var(--color3);
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+}

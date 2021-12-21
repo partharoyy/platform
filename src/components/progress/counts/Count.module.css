@@ -1,0 +1,31 @@
+.count {
+  align-items: center;
+  background-color: var(--color2);
+  margin-bottom: 1rem;
+  padding: 2rem 0px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.countActive {
+  background-color: var(--color3);
+  color: var(--color2);
+  box-shadow: 1px 20px 50px 1px rgba(49, 135, 248, 0.6);
+}
+
+.title {
+  font-size: 1.5rem;
+  color: rgb(128, 127, 127);
+  width: 5rem;
+  font-weight: bold;
+}
+
+.num {
+  font-size: 3rem;
+}
+
+.activeTitle {
+  color: var(--color2);
+}

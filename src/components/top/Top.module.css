@@ -1,0 +1,67 @@
+.toprow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rightSide {
+  background-color: var(--color2);
+  padding: 1.5rem 2rem;
+  border-radius: 0.3rem;
+}
+
+.rightSide h5 {
+  color: var(--color4);
+}
+
+.rightSide__bottomRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightSide__bottomRow p {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.rightSide__bottomRow img {
+  height: 1.4rem;
+  width: 1.5rem;
+}
+
+.banner {
+  margin-top: 2rem;
+  position: relative;
+}
+
+.banner__wallpaper {
+  width: 100%;
+  height: 12rem;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  top: -5rem;
+  left: 1rem;
+}
+
+.man {
+  height: 17rem;
+}
+
+.banner__text {
+  color: var(--color2);
+  margin-top: 8rem;
+  margin-left: 1.5rem;
+}
+
+.banner__text h1 {
+  font-size: 2.5rem;
+}
+
+.banner__text h3 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin-top: 0.9rem;
+}
